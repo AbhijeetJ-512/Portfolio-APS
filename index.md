@@ -24,7 +24,7 @@ GitHub is built on top of Git, which uses various algorithms for efficient versi
 - **Directed Acyclic Graph (DAG)**: Represents the commit history.
   - **Algorithm**: Depth-First Search (DFS) to traverse the DAG.
   - **Time Complexity**: O(V + E) where V is the number of vertices (commits) and E is the number of edges (parent-child relationships).
-
+**[More details](./Functionalities/Version_Control.md)**
 ### Diff Algorithms
 
 GitHub uses diff algorithms to show changes between file versions.
@@ -32,6 +32,8 @@ GitHub uses diff algorithms to show changes between file versions.
 - **Myers Diff Algorithm**: Computes the differences between two files.
   - **Algorithm**: Myers Diff Algorithm
   - **Time Complexity**: O(nd) where n and d are the lengths of the two files.
+
+**[More details](./Functionalities/Diff.md)**
 
 ### CI/CD
 
@@ -44,6 +46,8 @@ GitHub Actions enable continuous integration and continuous deployment.
 - **Scheduling Algorithms**: Ensures efficient and timely execution of CI/CD pipelines.
   - **Algorithm**: Job Scheduling Algorithms (e.g., Priority Scheduling)
   - **Time Complexity**: O(n log n) where n is the number of jobs.
+
+**[More details](./Functionalities/CI_CD.md)**
 
 ### Search Functionality
 
@@ -61,6 +65,8 @@ GitHub's search functionality allows users to search within documentation and re
     - Insertion: O(m) where m is the length of the key.
     - Search: O(m) where m is the length of the key.
 
+**[More details](./Functionalities/Search.md)**
+
 ### Recommendation Algorithms
 
 GitHub suggests repositories, contributors, and projects based on user behavior and interests.
@@ -71,6 +77,8 @@ GitHub suggests repositories, contributors, and projects based on user behavior 
     - User-Item Matrix Construction: O(m * n) where m is the number of users and n is the number of items.
     - Recommendation: O(k * log n) where k is the number of recommendations.
 
+**[More details](./Functionalities/Recommendation.md)**
+
 ### Rate Limiting
 
 GitHub manages the number of API requests per user to ensure fair usage.
@@ -78,6 +86,8 @@ GitHub manages the number of API requests per user to ensure fair usage.
 - **API Request Limits**: Uses rate limiting algorithms to manage requests.
   - **Algorithm**: Token Bucket or Leaky Bucket
   - **Time Complexity**: O(1) per request.
+
+**[More details](./Functionalities/Rate_Limiting.md)**
 
 ### Project Management and Collaboration
 
@@ -91,6 +101,8 @@ GitHub provides robust project management tools to help teams plan, track, and m
   - **Algorithm**: Prioritization Algorithms
   - **Time Complexity**: O(n)
 
+**[More details](./Functionalities/Project_Management.md)**
+
 
 ### Insights and Analytics
 
@@ -100,6 +112,8 @@ GitHub offers insights and analytics to help businesses understand their codebas
   - **Algorithm**: Time Series Analysis
   - **Time Complexity**: O(n log n)
 
+**[More details](./Functionalities/Insights_Analytics.md)**
+
 ### Open Source Contributions
 
 Enhance innovation and reduce costs by leveraging and contributing to public repositories.
@@ -108,10 +122,14 @@ Enhance innovation and reduce costs by leveraging and contributing to public rep
   - **Algorithm**: Fork-Join
   - **Time Complexity**: O(n)
 
+**[More details](./Functionalities/open_source.md)**
+
 ### Notifications in GitHub
 GitHub provides notifications to keep users informed about updates and changes in their repositories.
 
 - **Email and Web Notifications**: Alerts users about activity such as new issues, pull requests, and comments.
   - **Algorithm**: Event Handling and Dispatch
   - **Time Complexity**: O(1) per event
+
+**[More details](./Functionalities/Notification.md)**
 
