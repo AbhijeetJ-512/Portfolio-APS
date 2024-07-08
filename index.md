@@ -119,7 +119,6 @@ Enhance innovation and reduce costs by leveraging and contributing to public rep
 
 - **Fork and Pull Request Management**: Manages contributions.
   - **Algorithm**: Fork-Join
-  - **Time Complexity**: O(n)
 
 **[More details](./Functionalities/open_source.md)**
 
@@ -134,12 +133,14 @@ GitHub provides notifications to keep users informed about updates and changes i
 
 ## Refrences
 
-[1] APS Class
+[1] APS Class😁
 
 [2] [git/git](https://github.com/git/git)
 
 [3] Myers, E. W. (1986). An O(ND) Difference Algorithm and Its Variations. Algorithmica, 1(1-4), 251-266.
 
-[4] https://www.geeksforgeeks.org/auto-complete-feature-using-trie
+[4] Geeksforgeeks(2023)(https://www.geeksforgeeks.org/auto-complete-feature-using-trie)
 
-[5] https://docs.github.com/en
+[5] [Github Docs](https://docs.github.com/en)
+
+[6] Ravi K. (2024). "Topological Sorting". Online. Naukri. [https://www.naukri.com/code360/library/topological-sorting](https://www.naukri.com/code360/library/topological-sorting)  
