@@ -24,7 +24,9 @@ GitHub is built on top of Git, which uses various algorithms for efficient versi
 - **Directed Acyclic Graph (DAG)**: Represents the commit history.
   - **Algorithm**: Depth-First Search (DFS) to traverse the DAG.
   - **Time Complexity**: O(V + E) where V is the number of vertices (commits) and E is the number of edges (parent-child relationships).
+
 **[More details](./Functionalities/Version_Control.md)**
+
 ### Diff Algorithms
 
 GitHub uses diff algorithms to show changes between file versions.
@@ -97,9 +99,6 @@ GitHub provides robust project management tools to help teams plan, track, and m
   - **Algorithm**: Simple List Sorting
   - **Time Complexity**: O(n*logn)
 
-- **Milestones and Issues**: Track progress and manage project timelines.
-  - **Algorithm**: Prioritization Algorithms
-  - **Time Complexity**: O(n)
 
 **[More details](./Functionalities/Project_Management.md)**
 

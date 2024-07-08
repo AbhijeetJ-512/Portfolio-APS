@@ -31,6 +31,8 @@ The Directed Acyclic Graph (DAG) is fundamental to Git's functionality, represen
 
 Git's use of a DAG extends beyond simple commit tracking. The structure allows for efficient and complex operations such as finding common ancestors of commits, visualizing the project's history, and simplifying merges. By organizing commits in a hierarchical graph, Git ensures that the project's history is both accurate and easily navigable. This structure is crucial for supporting features like branching, where multiple lines of development can proceed concurrently without conflict.
 
+![](./Images/DAG.png)
+
 To traverse and manipulate the DAG, Git employs algorithms like Depth-First Search (DFS). This enables Git to perform operations with a time complexity of O(V + E), where V is the number of commits (vertices) and E is the number of parent-child relationships (edges). The DAG's acyclic nature prevents conflicts and ensures that each commit has a unique and clear history, facilitating collaborative development and maintaining the integrity of the project’s timeline.
 
 ### Time & Space Complexity Analysis:
