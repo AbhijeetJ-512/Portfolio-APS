@@ -55,6 +55,12 @@ GitHub's search functionality allows users to search within documentation and re
     - Indexing: O(n log n) where n is the number of documents.
     - Querying: O(k + log n) where k is the number of query terms.
 
+- **Trie for Prefix Search**: Supports efficient prefix-based search and autocomplete.
+  - **Algorithm**: Trie (Prefix Tree)
+  - **Time Complexity**:
+    - Insertion: O(m) where m is the length of the key.
+    - Search: O(m) where m is the length of the key.
+
 ### Recommendation Algorithms
 
 GitHub suggests repositories, contributors, and projects based on user behavior and interests.
