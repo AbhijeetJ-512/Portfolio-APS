@@ -132,3 +132,14 @@ GitHub provides notifications to keep users informed about updates and changes i
 
 **[More details](./Functionalities/Notification.md)**
 
+## Refrences
+
+[1] APS Class
+
+[2] [git/git](https://github.com/git/git)
+
+[3] Myers, E. W. (1986). An O(ND) Difference Algorithm and Its Variations. Algorithmica, 1(1-4), 251-266.
+
+[4] https://www.geeksforgeeks.org/auto-complete-feature-using-trie
+
+[5] https://docs.github.com/en
