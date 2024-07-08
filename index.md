@@ -73,3 +73,39 @@ GitHub manages the number of API requests per user to ensure fair usage.
   - **Algorithm**: Token Bucket or Leaky Bucket
   - **Time Complexity**: O(1) per request.
 
+### Project Management and Collaboration
+
+GitHub provides robust project management tools to help teams plan, track, and manage their work.
+
+- **Kanban Boards**: Visual project management tool.
+  - **Algorithm**: Simple List Sorting
+  - **Time Complexity**: O(n*logn)
+
+- **Milestones and Issues**: Track progress and manage project timelines.
+  - **Algorithm**: Prioritization Algorithms
+  - **Time Complexity**: O(n)
+
+
+### Insights and Analytics
+
+GitHub offers insights and analytics to help businesses understand their codebase and development processes.
+
+- **Commit Activity**: Analyzes commit frequency and patterns.
+  - **Algorithm**: Time Series Analysis
+  - **Time Complexity**: O(n log n)
+
+### Open Source Contributions
+
+Enhance innovation and reduce costs by leveraging and contributing to public repositories.
+
+- **Fork and Pull Request Management**: Manages contributions.
+  - **Algorithm**: Fork-Join
+  - **Time Complexity**: O(n)
+
+### Notifications in GitHub
+GitHub provides notifications to keep users informed about updates and changes in their repositories.
+
+- **Email and Web Notifications**: Alerts users about activity such as new issues, pull requests, and comments.
+  - **Algorithm**: Event Handling and Dispatch
+  - **Time Complexity**: O(1) per event
+
